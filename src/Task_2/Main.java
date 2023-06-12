@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Transformed string: " + s2);
     }
 
-    private static String transform(String input) {
+    public static String transform(String input) {
         StringBuilder sb = new StringBuilder(input);
         int count = 0;
         for (int i = sb.length() - 1; i >= 0; i--) {
